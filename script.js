@@ -9,7 +9,7 @@ function firstWord(s) {
     }
 
     // Return substring from the start to the first space
-    return trimmedStr.substring(0, firstSpaceIndex);
+    return trimmedStr.slice(0, firstSpaceIndex);
 	
 }
 
